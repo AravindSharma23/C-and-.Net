@@ -29,11 +29,12 @@ class HelloWorld {
      else if(avg>60 && avg <= 50){
             Console.WriteLine($"{Name} scored {avg} percentage with B Grade");
     }
+    
+    
+  }
     else{
         Console.WriteLine($"{Name} scored {avg} percentage and Fail");
     }
-    
-  }
 }
 }
 
